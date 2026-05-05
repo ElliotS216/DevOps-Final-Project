@@ -2,7 +2,7 @@
 FROM gcc:15.2
 
 # Set working directory inside container
-WORKDIR /app
+WORKDIR /dodate
 
 # Copy your C++ file into the container
 COPY . .
